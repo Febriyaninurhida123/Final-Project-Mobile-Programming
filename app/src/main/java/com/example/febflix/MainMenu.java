@@ -27,7 +27,7 @@ public class MainMenu extends AppCompatActivity {
         cdMenu1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // ... kode onClick
+                launchHalloProject(v);
             }
         });
 
@@ -89,6 +89,10 @@ public class MainMenu extends AppCompatActivity {
     }
 
     // Metode untuk menjalankan aktivitas Count
+    public void launchHalloProject(View v) {
+        Intent intent = new Intent(this, Hallo.class);
+        startActivity(intent);
+    }
     public void launchCountProject(View v) {
         Intent intent = new Intent(this, Count.class);
         startActivity(intent);
@@ -129,5 +133,4 @@ public class MainMenu extends AppCompatActivity {
         Intent intent = new Intent(this, ViewPager.class);
         startActivity(intent);
     }
-
 }
