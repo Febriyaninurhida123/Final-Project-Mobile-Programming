@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editText_main" type="id" />
+    <item name="text_header_reply" type="id" />
+    <item name="text_message_reply" type="id" />
+    <item name="editText_second" type="id" />
+    <item name="text_message" type="id" />
+    <item name="timePicker" type="id" />
+    <item name="cdMenu1" type="id" />
+    <item name="cdMenu2" type="id" />
+    <item name="cdMenu3" type="id" />
+    <item name="cdMenu4" type="id" />
+    <item name="cdMenu5" type="id" />
+    <item name="cdMenu6" type="id" />
+    <item name="cdMenu7" type="id" />
+    <item name="cdMenu8" type="id" />
+    <item name="cdMenu9" type="id" />
+    <item name="tablayout" type="id" />
+    <item name="viewpager" type="id" />
+    <item name="imgView0" type="id" />
+    <item name="imgView1" type="id" />
+    <item name="image1" type="id" />
+    <item name="title1" type="id" />
+    <item name="description1" type="id" />
+    <item name="playButton1" type="id" />
+    <item name="image2" type="id" />
+    <item name="title2" type="id" />
+    <item name="description2" type="id" />
+    <item name="playButton2" type="id" />
+    <item name="image3" type="id" />
+    <item name="title3" type="id" />
+    <item name="description3" type="id" />
+    <item name="playButton3" type="id" />
+    <item name="videoView1" type="id" />
+    <item name="videoView2" type="id" />
+    <item name="videoView3" type="id" />
+    <item name="viewPager" type="id" />
+    <item name="tabLayout" type="id" />
+    <item name="TabLayout" type="id" />
+    <item name="video_view" type="id" />
+    <item name="VideoView" type="id" />
+    <item name="fullscreenButton" type="id" />
+</resources>

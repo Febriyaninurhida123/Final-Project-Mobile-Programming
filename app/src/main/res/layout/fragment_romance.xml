@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCF1"
+    android:padding="16dp">
+
+    <!-- Item 1 -->
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/ourbeloved"
+        android:scaleType="fitXY"
+        android:contentDescription="Movie 1" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image1"
+        android:text="Our Beloved Summer"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:layout_toRightOf="@id/image1"
+        android:layout_marginTop="8dp"
+        android:text="dua siswa yang tidak dapat dipisahkan lebih jauh. Kook Yeon-soo, diperankan oleh Kim Da-mi , adalah siswa terbaik di sekolahnya dengan kepribadian yang kasar dan mandiri. Sementara itu, Choi Ung, diperankan oleh Choi Woo-shik , berada di peringkat terakhir dan tidak menginginkan apa pun selain menjalani kehidupan damai dengan berjemur di bawah sinar matahari. "
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/playButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description1"
+        android:layout_toRightOf="@id/image1"
+        android:layout_marginTop="8dp"
+        android:text="Play"
+        android:background="#2196F3"
+        android:textColor="#FFF"
+        android:layout_marginStart="16dp" />
+
+    <!-- Item 2 -->
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/playButton1"
+        android:layout_marginTop="32dp"
+        android:contentDescription="Movie 2"
+        android:scaleType="fitXY"
+        android:src="@drawable/twentyfivetwentyone" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image2"
+        android:layout_below="@+id/playButton1"
+        android:layout_marginTop="16dp"
+        android:text="Twenty Five Twenty One"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title2"
+        android:layout_toRightOf="@id/image2"
+        android:layout_marginTop="8dp"
+        android:text="serial ini mengikuti seorang pria berusia 22 tahun yang bertemu dengan seorang perempuan berusia 18 tahun di tengah pergolakan Krisis Ekonomi Asia pada tahun 1998. Di masa tersebut, persahabatan terjalin erat, cinta terasa indah, dan ada keputusasaan yang menyayat hati."
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/playButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description2"
+        android:layout_toRightOf="@id/image2"
+        android:layout_marginTop="8dp"
+        android:text="Play"
+        android:background="#2196F3"
+        android:textColor="#FFF"
+        android:layout_marginStart="16dp" />
+
+    <!-- Item 3 -->
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/startup"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/playButton2"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Movie 3" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image3"
+        android:layout_below="@+id/playButton2"
+        android:layout_marginTop="16dp"
+        android:text="Start-Up"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title3"
+        android:layout_toRightOf="@id/image3"
+        android:layout_marginTop="8dp"
+        android:textColor="#333"
+        android:text="tentang perjuangan sejumlah anak muda dalam mewujudkan mimpi mereka. Di mana, latar kisah drama Korea START UP adalah dunia usaha rintisan atau Start-up bernama Sandbox. Sementara itu, fokus utama drakor ini ada pada empat tokoh utama yakni Seo Dal Mi, Han Ji Pyeong, Nam Do San dan Wo In Jae."
+        android:textSize="14sp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/playButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description3"
+        android:layout_toRightOf="@id/image3"
+        android:layout_marginTop="8dp"
+        android:text="Play"
+        android:background="#2196F3"
+        android:textColor="#FFF"
+        android:layout_marginStart="16dp" />
+
+</RelativeLayout>

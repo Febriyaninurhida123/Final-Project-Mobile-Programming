@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCF1"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Movie 1"
+        android:scaleType="fitXY"
+        android:src="@drawable/baymax" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image1"
+        android:text="Big Hero 6"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:layout_toRightOf="@id/image1"
+        android:layout_marginTop="8dp"
+        android:text="Di usia 14 tahun, Hiro telah berhasil menciptakan sebuah Robot bernama Baymax. Sayangnya, Hiro meninggal dunia akibat sebuah peristiwa. Sang adik kemudian meneruskan pembuatan Baymax. Dia juga mengumpulkan beberapa teman yang kemudian sepakat bersatu menjadi suoer hero menumpas kejahatan."
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/playButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description1"
+        android:layout_toRightOf="@id/image1"
+        android:layout_marginTop="8dp"
+        android:text="Play"
+        android:onClick="launchVideoBaymax"
+        android:background="#B9BCF4"
+        android:textColor="#FFF"
+        android:layout_marginStart="16dp" />
+
+    <!-- Item 2 -->
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/playButton1"
+        android:layout_marginTop="34dp"
+        android:contentDescription="Movie 2"
+        android:scaleType="fitXY"
+        android:src="@drawable/minions" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image2"
+        android:layout_below="@+id/playButton1"
+        android:layout_marginTop="16dp"
+        android:text="Despicable Me"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title2"
+        android:layout_toRightOf="@id/image2"
+        android:layout_marginTop="8dp"
+        android:text="Mengisahkan seorang penjahat bernama Gru. Ia sering mencuri senjata hingga situs bersejarah di dunia. Dalam menjalankan tindak kejahatan, Gru juga didampingi oleh para minions. Para minions inilah yang sering membuat scene dalam Despicable Me menjadi penuh komedi."
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/playButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description2"
+        android:layout_toRightOf="@id/image2"
+        android:layout_marginTop="8dp"
+        android:text="Play"
+        android:onClick="launchVideoMinions"
+        android:background="#B9BCF4"
+        android:textColor="#FFF"
+        android:layout_marginStart="16dp" />
+
+    <!-- Item 3 -->
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/playButton2"
+        android:layout_marginTop="31dp"
+        android:contentDescription="Movie 3"
+        android:scaleType="fitXY"
+        android:src="@drawable/spongebons" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image3"
+        android:layout_below="@+id/playButton2"
+        android:layout_marginTop="16dp"
+        android:text="SpongeBob"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title3"
+        android:layout_toRightOf="@id/image3"
+        android:layout_marginTop="8dp"
+        android:text="Spons laut kuning bernama SpongeBob SquarePants, yang senang menjadi juru masak di Krusty Krab, tinggal di Samudra Pasifik. Dia memulai berbagai petualangan dengan teman-temannya di Bikini Bottom."
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/playButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description3"
+        android:layout_toRightOf="@id/image3"
+        android:layout_marginTop="8dp"
+        android:text="Play"
+        android:onClick="launchVideoFromFragment"
+        android:background="#B9BCF4"
+        android:textColor="#FFF"
+        android:layout_marginStart="16dp" />
+
+    <!-- Tambahkan item berikutnya sesuai kebutuhan -->
+
+</RelativeLayout>
+

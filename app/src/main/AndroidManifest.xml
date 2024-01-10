@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.febflix" >
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Febflix" >
+
+        <activity
+            android:name=".ViewPager"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".PlayerMinions"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerSpongebob"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerBaymax"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerOurBeloved"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerTw"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerStartup"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerTheLies"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerGirlFrom"
+            android:exported="false"/>
+        <activity
+            android:name=".PlayerAllOff"
+            android:exported="false"/>
+        <activity
+            android:name=".Hallo"
+            android:exported="false" />
+        <activity
+            android:name=".Count"
+            android:exported="false" />
+        <activity
+            android:name=".Sianida"
+            android:exported="false" />
+        <activity
+            android:name=".Maps"
+            android:exported="false" />
+        <activity
+            android:name=".Alarm"
+            android:exported="false" />
+        <activity
+            android:name=".Messege1"
+            android:label="First Activity"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu" />
+        </activity>
+        <activity
+            android:name=".Messege2"
+            android:label="Second Activity"
+            android:parentActivityName=".Messege1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Messege1" />
+        </activity>
+        <activity
+            android:name=".Fibonacci"
+            android:exported="false" />
+    </application>
+
+</manifest>
