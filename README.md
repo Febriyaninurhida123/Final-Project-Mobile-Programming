@@ -2793,4 +2793,6 @@ public class PlayerGirlFrom extends AppCompatActivity {
 
 # OUTPUT
 
-### Hasil Project Uas : [CLICK HERE](https://youtu.be/sp2qrnTRUxo?si=gP36LNGAqBjkq4Wk)
+### Demo Project Uas : [CLICK HERE](https://youtu.be/sp2qrnTRUxo?si=gP36LNGAqBjkq4Wk)
+### PDF Project Uas : [CLICK HERE](https://drive.google.com/file/d/1qx4BquxiXHBy4pF2yK2_54UYMJNyLMKc/view?usp=sharing)
+
