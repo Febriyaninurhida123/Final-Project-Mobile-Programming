@@ -9,9 +9,9 @@ Mata Kuliah     : Pemrograman Mobile (UAS)
 Dosen Pengampu  : Donny Maulana, S.Kom., M.M.S.I
 ```
 
-# Febflix's App
+# Febflix App
 
-Tyrell's App merupakan sebuah Aplikasi yang dibuat di Android Studio yang mencakup banyak Project, diantaranya yaitu :
+Febflix App merupakan sebuah Aplikasi yang dibuat di Android Studio yang mencakup banyak Project, diantaranya yaitu :
 
 1. Project Hello World
 2. Project Count
